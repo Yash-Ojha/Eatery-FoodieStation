@@ -1,0 +1,277 @@
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* SCROLLBAR BEHAVIOUR */
+
+html {
+    scroll-behavior: smooth;
+}
+
+#login-in {
+    background-image: url('../login.jpg');
+    height: 100%;
+    width: 100%;
+}
+
+#logo {
+    margin: 5px 34px;
+}
+
+#logo img {
+    height: 100px;
+    margin: 0px 0px 0px 0px;
+}
+
+
+/* NAVBAR SECTION */
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.911);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 70%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#navbar ul {
+    display: flex;
+    font-family: 'Lobster', cursive;
+}
+
+#navbar ul li {
+    display: flex;
+    list-style: none;
+    font-size: 1.4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar ul li a {
+    font-family: 'Bangers', cursive;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px rgb(129, 230, 89);
+    text-decoration: none;
+    margin: 0px 0px 0px10px;
+    font-size: 1.5rem;
+    background-color: rgba(190, 185, 179, 0.856);
+}
+.navbar-p {
+    padding: 7px;
+    font-family: 'Bangers', cursive;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px rgb(129, 230, 89);
+    text-align: left;
+    margin: 0px 0px 0px 10px;
+    font-size: 1.9rem;
+}
+/* Login Section */
+#loginform{
+   
+    display: inline-block;
+    background-color: rgba(30, 152, 233, 0.363);
+    padding: 45px 50px 50px 50px;
+    margin: 24px 40px 53px  40px;
+    border-radius: 20px;
+}
+#loginform label{
+    font-size: 1.2rem;
+    padding: 2px;
+    margin: 20px 0px 50px 0px;
+    font-family: 'Lobster', cursive;
+    background-color: rgba(255, 255, 255, 0.281);
+   
+    
+    text-shadow: 2px 2px rgb(177, 48, 87);
+    border-radius: 10px;
+    
+}
+#loginform .input{
+    margin: 5px;
+    padding: 5px 13px;
+    background-color: rgba(251, 247, 247, 0.548);
+     border-bottom: white;
+     color: rgb(255, 255, 255);
+     border-radius: 10px;
+     
+}
+
+.btn img{
+    
+    height: 30px;
+    width: 30px;
+   
+}
+.btn1 img{
+    
+    height: 30px;
+    width: 30px;
+   padding: 0px 15px 0px 0px;
+}
+ #boxp {
+     padding-left: 10px; 
+    font-family: 'baloo bhai 2', cursive;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px rgb(97, 102, 104);
+    background-color: rgba(251, 228, 185, 0.157);
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    font-size: 1.0rem;
+    border-radius: 5px;
+} 
+
+
+/* FooterSection*/
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(141, 137, 137, 0.418);
+    font-size: 0.75rem;
+    margin: auto;
+}
+
+.footer1 {
+    margin: 10px 100px 0px 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.foot img {
+    height: 30px;
+    margin: 2.5px 5px 2.5px 0px;
+}
+
+
+/* Utility Classes */
+
+h1 {
+    font-family: 'Bangers', cursive;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px rgb(255, 145, 0);
+    text-align: center;
+}
+
+.h-primary {
+    font-size: 3.1rem;
+    padding: 15px 200px 40px 250px;
+    text-align: center;
+}
+
+.h-primary-1 {
+    margin: 250px 200px 10px 200px;
+    font-size: 3.5rem;
+    padding: 15px 15px 20px;
+}
+
+.h-primary-2 {
+    margin: 30px 200px 10px 200px;
+    font-size: 3.5rem;
+    padding: 15px 15px 20px;
+}
+
+.h-secondary-1:hover {
+    background-color: rgba(0, 0, 0, 0.109);
+    border-radius: 30px;
+    font-size: 1.1rem;
+}
+
+.h-secondary {
+    font-size: 2.5rem;
+    padding: 12px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px rgb(164, 225, 243);
+    text-align: center;
+}
+
+.h-secondary-1 {
+    font-size: 1.0rem;
+    padding: 1px;
+    color: black;
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px rgb(164, 225, 243);
+}
+
+.h-secondary:hover {
+    background-color: rgba(0, 0, 0, 0.109);
+    border-radius: 40px;
+}
+a{
+    text-decoration: none;
+}
+
+
+.btn {
+    display: flex;
+    align-items: center;
+     margin:  3px 0px 3px 0px;
+    padding: 6px 75px;
+    color: white;
+    border: 2px rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 1.0rem;
+    font-family: 'lobster', cursive;
+    background-color: rgb(39, 63, 45);
+    cursor: pointer;
+}
+.btn1 {
+    display: flex;
+    align-items: center;
+     margin:  3px 0px 3px 0px;
+    padding: 6px 30px;
+    color: white;
+    border: 2px rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 1.0rem;
+    font-family: 'lobster', cursive;
+    background-color: rgba(253, 253, 253, 0.281);
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: rgb(67, 85, 71);
+    font-size: 1.2rem;;
+}
+.btn1:hover {
+    background-color: rgb(67, 85, 71);
+    font-size: 1.2rem;;
+}
+.btnogin {
+     display: flex;
+    align-items: center;
+     margin:  3px 0px 3px 0px;
+    padding: 6px 75px;
+    color: white;
+    border: 2px rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 1.0rem;
+    font-family: 'lobster', cursive;
+    background-color: rgb(39, 63, 45);
+    cursor: pointer;
+}
+.btnogin:hover {
+    background-color: rgb(67, 85, 71);
+    font-size: 1.2rem;;
+}
+
+.center {
+    text-align: center;
+}
