@@ -15,7 +15,7 @@ html {
 }
 
 #login-in {
-    background-image: url('../login.jpg');
+    background-image: url('/Eatery-FoodieStation/login.jpg');
     height: 100%;
     width: 100%;
 }
